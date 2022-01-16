@@ -1,0 +1,87 @@
+{
+  "id": "5bd4cd24-50b5-4f76-a186-5b757718dfff",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again?",
+            "Sorry, can you say that again?",
+            "Can you say that again?",
+            "Sorry, I didn\u0027t get that. Can you rephrase?",
+            "Sorry, what was that?",
+            "One more time?",
+            "What was that?",
+            "Say that one more time?",
+            "I didn\u0027t get that. Can you repeat?",
+            "I missed that, say that again?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "speech": [
+            "मुझे समझ नहीं आया. क्या आप अपनी बात दोहरा सकते हैं?",
+            "आपने क्या कहा, मुझे समझ नहीं आया. फिर से कहें?",
+            "माफ़ करें, क्या आप अपनी बात दोहरा सकते हैं?",
+            "माफ़ करें, क्या आप अपनी बात फिर से कह सकते हैं?",
+            "क्या आप अपनी बात दोहरा सकते हैं?",
+            "माफ़ करें, मुझे समझ नहीं आया|",
+            "माफ़ करें, क्या कहा आपने?",
+            "एक बार फिर से कह सकते हैं?",
+            "क्या कहा आपने?",
+            "एक बार फिर से कहिए?",
+            "मुझे समझ नहीं आया|"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "bn",
+          "speech": [
+            "আমি এটা শুনতে পাইনি৷ আপনি কি আবার এটা বলবেন?",
+            "আপনি যা বললেন সেটা আমি মিস করলাম৷ সেটা আর একবার বলবেন?",
+            "আপনি কি এটা আর একবার বলতে পারবেন?",
+            "আপনি কি এটা আবার বলতে পারবেন?",
+            "আপনি কি এটা আবার বলতে পারবেন?",
+            "আপনি কি বললেন আমি বুঝতে পারি নি৷",
+            "কি বললেন বুঝতে পারলাম না?",
+            "আরও এক বার বলবেন?",
+            "কি বললেন বুঝলাম না?",
+            "আরও এক বার বলবেন?",
+            "আমি এটা শুনতে পাইনি৷",
+            "আমি এটা মিস করে গেলাম৷"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
